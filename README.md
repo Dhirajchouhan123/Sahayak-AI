@@ -82,3 +82,35 @@ Designed with a modern React frontend and a FastAPI backend, Sahayak AI demonstr
 - Vector Embeddings
 - Semantic Search
 - Large Language Models (LLMs)
+
+---
+
+# 🏗️ Project Architecture
+
+```
+                ┌─────────────────────────┐
+                │     React Frontend      │
+                │ (TypeScript + Vite UI)  │
+                └────────────┬────────────┘
+                             │
+                       REST API (Axios)
+                             │
+                ┌────────────▼────────────┐
+                │      FastAPI Backend     │
+                └───────┬─────────┬────────┘
+                        │         │
+                Upload Route   Chat Route
+                        │         │
+                        ▼         ▼
+                 PDF Processing  RAG Pipeline
+                        │
+                 PyPDF Text Extraction
+                        │
+                 Sentence Transformers
+                        │
+                  FAISS Vector Store
+                        │
+                    OpenRouter LLM
+                        │
+                 AI Generated Response
+```
