@@ -32,4 +32,21 @@ Instead of manually reading dozens of pages, users can upload a PDF and instantl
 
 The application combines Large Language Models (LLMs), semantic search using FAISS, Sentence Transformers embeddings, and Retrieval-Augmented Generation (RAG) to answer user questions based only on the uploaded document.
 
-Designed with a modern React frontend and a FastAPI backend, Sahayak AI demonstrates a production-oriented AI application architecture suitable for real-world document intelligence systems.
+Designed with a modern React frontend and a FastAPI backend, Sahayak AI demonstrates a production-oriented AI application architecture suitable for real-world document intelligence systems
+
+
+.
+# ✨ Features
+
+- 📄 Upload PDF documents
+- 🤖 AI-powered document summarization
+- 📅 Automatic deadline extraction
+- 📋 Required documents identification
+- ✅ Smart checklist generation
+- 💬 Chat with uploaded documents using RAG
+- 🔍 Semantic search powered by FAISS
+- 🧠 Sentence Transformer embeddings
+- ⚡ FastAPI REST backend
+- 🎨 Modern React + TypeScript frontend
+- 📱 Responsive UI
+- 🔒 Environment variable support
