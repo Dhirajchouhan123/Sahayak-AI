@@ -114,3 +114,21 @@ Designed with a modern React frontend and a FastAPI backend, Sahayak AI demonstr
                         │
                  AI Generated Response
 ```
+---
+
+# ⚙️ Workflow
+
+1. User uploads a PDF document.
+2. FastAPI extracts text using PyPDF.
+3. Text is divided into semantic chunks.
+4. Sentence Transformers generate embeddings.
+5. Embeddings are stored in FAISS.
+6. OpenRouter LLM analyzes the complete document.
+7. AI generates:
+   - Summary
+   - Deadlines
+   - Required Documents
+   - Checklist
+8. During chat, relevant chunks are retrieved using semantic search.
+9. Retrieved context is sent to the LLM.
+10. The LLM answers only from the uploaded document.
