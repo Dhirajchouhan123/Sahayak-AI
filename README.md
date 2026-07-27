@@ -1,18 +1,5 @@
-# Sahayak AI
+# 🧠 Sahayak AI – Smart Document Copilot
 
-AI-powered Smart Notice & Document Copilot.
+> AI-powered Smart Document Copilot built with **React, FastAPI, LangChain, FAISS, Sentence Transformers, and OpenRouter**.
 
-## Features
-
-- Upload PDF/Image
-- AI Summary
-- Deadline Extraction
-- Checklist Generation
-- Document Chat
-
-Built using
-
-- React
-- FastAPI
-- Gemini
-- MongoDB
+Transform complex government notices, scholarship circulars, official documents, and PDFs into concise summaries, deadlines, required documents, checklists, and interactive AI conversations using Retrieval-Augmented Generation (RAG).
