@@ -132,3 +132,37 @@ Designed with a modern React frontend and a FastAPI backend, Sahayak AI demonstr
 8. During chat, relevant chunks are retrieved using semantic search.
 9. Retrieved context is sent to the LLM.
 10. The LLM answers only from the uploaded document.
+
+---
+
+# 📂 Project Structure
+
+```text
+Sahayak-AI/
+│
+├── backend/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   ├── app.py
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── home/
+│   │   │   ├── layout/
+│   │   │   ├── ui/
+│   │   │   └── workspace/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── types/
+│   │   └── main.tsx
+│   └── package.json
+│
+├── docs/
+├── screenshots/
+├── README.md
+└── LICENSE
+```
