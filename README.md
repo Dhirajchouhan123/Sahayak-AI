@@ -166,3 +166,65 @@ Sahayak-AI/
 ├── README.md
 └── LICENSE
 ```
+---
+
+# 🚀 Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Dhirajchouhan123/Sahayak-AI.git
+cd Sahayak-AI
+```
+
+## Backend Setup
+
+```bash
+cd backend
+
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+
+uvicorn app:app --reload
+```
+
+Backend runs on:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## Frontend Setup
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+Frontend runs on:
+
+```
+http://localhost:5173
+```
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file inside the backend folder.
+
+```env
+OPENROUTER_API_KEY=your_openrouter_api_key
+```
+
+You can obtain your API key from:
+
+https://openrouter.ai/
