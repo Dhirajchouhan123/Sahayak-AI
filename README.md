@@ -50,3 +50,35 @@ Designed with a modern React frontend and a FastAPI backend, Sahayak AI demonstr
 - 🎨 Modern React + TypeScript frontend
 - 📱 Responsive UI
 - 🔒 Environment variable support
+
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Axios
+- shadcn/ui
+
+### Backend
+
+- FastAPI
+- Python
+- OpenRouter API
+- LangChain
+- Sentence Transformers
+- FAISS
+- PyPDF
+- Uvicorn
+
+### AI Technologies
+
+- Retrieval-Augmented Generation (RAG)
+- Vector Embeddings
+- Semantic Search
+- Large Language Models (LLMs)
