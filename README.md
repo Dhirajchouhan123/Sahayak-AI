@@ -16,3 +16,20 @@
 > AI-powered Smart Document Copilot built with **React, FastAPI, LangChain, FAISS, Sentence Transformers, and OpenRouter**.
 
 Transform complex government notices, scholarship circulars, official documents, and PDFs into concise summaries, deadlines, required documents, checklists, and interactive AI conversations using Retrieval-Augmented Generation (RAG).
+---
+
+# 📖 Project Overview
+
+Sahayak AI is an AI-powered Smart Document Copilot that helps users understand lengthy government notices, scholarship PDFs, official circulars, and institutional documents within seconds.
+
+Instead of manually reading dozens of pages, users can upload a PDF and instantly receive:
+
+- AI-generated summaries
+- Important deadlines
+- Required documents
+- Submission checklist
+- Interactive document chat powered by RAG
+
+The application combines Large Language Models (LLMs), semantic search using FAISS, Sentence Transformers embeddings, and Retrieval-Augmented Generation (RAG) to answer user questions based only on the uploaded document.
+
+Designed with a modern React frontend and a FastAPI backend, Sahayak AI demonstrates a production-oriented AI application architecture suitable for real-world document intelligence systems.
