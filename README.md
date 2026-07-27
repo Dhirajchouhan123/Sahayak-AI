@@ -228,3 +228,47 @@ OPENROUTER_API_KEY=your_openrouter_api_key
 You can obtain your API key from:
 
 https://openrouter.ai/
+
+---
+
+# 📸 Application Screenshots
+
+## 🏠 Landing Page
+
+![Homepage](screenshots/Homepage.png)
+
+---
+
+## 📤 Upload PDF
+
+![Upload](screenshots/Upload.png)
+
+---
+
+## 📄 AI Analysis
+
+![Analysis](screenshots/Analysis.png)
+
+---
+
+## 💬 Chat with Document
+
+![Chat](screenshots/Chat.png)
+
+---
+
+## ⚙️ How It Works
+
+![How It Works](screenshots/HowItWorks.png)
+
+---
+
+## ✨ Features
+
+![Features](screenshots/features.png)
+
+---
+
+## 📑 Sample Document
+
+![Sample Document](screenshots/localhostdocs.png)
